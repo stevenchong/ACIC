@@ -12,5 +12,5 @@ RUN sudo pip install h5py
 RUN HDF5_DIR=/usr/local/hdf5
 RUN sudo pip install netcdf4
 RUN sudo pip install plotly
-ADD hw8.py hw8.py
-VOLUME /data  
+ADD hw8_webpage.py hw8_webpage.py
+VOLUME /data 
